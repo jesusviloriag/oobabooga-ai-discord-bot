@@ -11,7 +11,7 @@ app.on('uncaughtException', function(err) {
 
 const sDUrl = 'http://127.0.0.1:5000/api/v1/chat';
 
-const discordBotToken = 'MTEyMTU3MzY5NzYzMTgxMzY0Mg.GxjlIU.lA4yOoW-lAxa_hrs-yzmQuZNLCKy89cueRYWqE';
+const discordBotToken = "<your bot's token>";
 
 app.use(bodyParser.urlencoded({ extended: true }));
 
