@@ -43,8 +43,8 @@ npm start
 Discord Developers Portal:
 https://discord.com/developers
 
-POST Request Payload:
-```json
+POST Request Payload format example:
+```javascript
 const payload = {
         'user_input': 'Hey there!',
         'max_new_tokens': 250,
