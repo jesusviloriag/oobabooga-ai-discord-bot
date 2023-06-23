@@ -19,6 +19,25 @@ You can activate API endpoints by adding command line argument to executable:
 --api
 ```
 
+## Installation
+
+Install node dependencies
+```
+npm install
+```
+Add your Discord bot Token Key here:
+/server/index.js line 14
+```
+const discordBotToken = "<your bot's token>";
+```
+
+## Usage
+
+To start the project:
+```
+npm start
+```
+
 ## Links and utilities
 
 Discord Developers Portal:
