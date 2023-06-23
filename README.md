@@ -1,7 +1,7 @@
 # discord-stable-diffusion-bot
 A bot that connects to a local Oobabooga API for AI prompts 
 
-![alt text](https://i.imgur.com/3ABpEvZ.jpg)
+![alt text](https://i.imgur.com/f2XDbB3.png)
 
 You can reset chat history with this command:
 
