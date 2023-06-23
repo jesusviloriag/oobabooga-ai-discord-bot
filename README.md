@@ -46,9 +46,9 @@ https://discord.com/developers
 POST Request Payload format example:
 ```javascript
 const payload = {
-        'user_input': 'Hey there!',
+        'user_input': 'Hey there!',  //prompt message
         'max_new_tokens': 250,
-        'history': history,
+        'history': {'internal': [], 'visible': []}, //empty history in this case
         'mode': 'chat', 
         'character': 'Magi',
         'your_name': 'You',
